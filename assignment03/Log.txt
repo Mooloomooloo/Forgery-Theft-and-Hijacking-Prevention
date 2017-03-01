@@ -1,0 +1,25 @@
+2017.02.24 (1hr 25min)
+- Watch Starting Walkthrough Video (COMPLETED - 20min)
+- Objective 1 (COMPLETED - 5min)
+- Objective 2 (COMPLETED - 20min)
+- Objective 3 (COMPLETED - 60min)
+	- Error message when username not found (COMPLETED)
+	- Error message when username found, password incorrect (COMPLETED)
+	(?) Any way to not reveal "The username was found, but the password is incorrect."
+	- After a successful login, store the user's ID in the session data (as "user_id").
+	- After a successful login, store the user's last login time in the session data (as "last_login").
+	- Regenerate the session ID at the appropriate point to prevent Session Fixation.
+
+2017.02.28 (2hr 35min)
+- Objective 4 (COMPLETED - 30min)
+	- Add require_login() to all except for login and logout pages
+- Objective 5 (COMPLETED - 30 min)
+	-  Added "unset($_SESSION['user_id']);
+ destroy_current_session();" to log_out_user()
+- Objective 6 (COMPLETED - 60min)
+- Objective 7 (COMPLETED - 5min) 
+	- Sanitized Username input in public/staff/login.php
+- Objective 8 (COMPLETED - 20min)
+	- Changed h() to use db_escape() in find_users_by_username()
+- Bugs: (10min)
+	- public/staff/territories/show.php: find_territory_by_id() changed to find_state_by_id() 
