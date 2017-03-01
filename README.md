@@ -75,7 +75,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+In this project I learned about cookies, sessions, and CSRF tokens. These elements are helping in
+forgery, theft, and hijacking prevention. 
 
 ## License
 
